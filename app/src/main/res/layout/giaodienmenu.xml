@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEFFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="50dp"
+            tools:srcCompat="@drawable/kiwi" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="279dp"
+            android:layout_height="53dp"
+            android:gravity="center"
+            android:text="KiwiKiwi"
+            android:textColor="#EEFF0000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/welcome" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:backgroundTint="#FDF6FE"
+            android:paddingEnd="60dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/dao_nia" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="MENU"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Đồ nướng"
+                android:textColor="#E111"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="46dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/do_nuong" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Đồ uống"
+                android:textColor="#E111"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="23dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/douong_png" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Cơm"
+                android:textColor="#E111"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/com" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Đồ thêm"
+                android:textColor="#E111"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dothem" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Lẩu"
+                android:textColor="#E111"
+                android:textSize="20dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lau" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="#FCAAAA"
+                android:paddingBottom="30dp"
+                android:text="Tráng miệng"
+                android:textColor="#E111"
+                android:textSize="18dp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="46dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/trangmien" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
